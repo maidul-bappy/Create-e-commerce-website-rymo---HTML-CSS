@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#1d1d1d;
+}
+
+h6{
+    color:#d8d8d8;
+
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: #3a3833;
+}
+
+.Navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+
+.Navbar .NavbarNav .NavLink {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.Navbar .NavbarNav .NavLink:hover,
+.Navbar i:hover,
+.Navbar .NavbarNav .NavLink.active,
+.Navbar i.active{
+    color: coral;
+}
+
+.Navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    font-weight: 500;
+    transition: o.3s ease;
+    cursor: pointer;
+}
+#Hero span{
+    color: coral;
+}
+
+#Hero{
+    background-image: url(img/back.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Mobile Nav */
+.Navbar .NavbarToggler{
+    border: none;
+    outline: none;
+}
+
+#Bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+#Bar:hover,
+#Bar.active{
+    color: #fff;
+}
+@media only screen and (max-width: 991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color: coral;
+    }
+    body > nav > div > button:hover #Bar,
+    body > nav > div > button:focus #Bar{
+       color: white;
+    }
+
+    #navbarSupportedContent > ul{
+        margin: .5rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 10px 0;
+    }
+}
+/* Mobile Nav */
+
+#NewSec-1 .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#NewSec-1 .one .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+}
+#NewSec-1 .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.6);
+}
+
+#NewSec-1 .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    background:none;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+}
+#NewSec-1 .one .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#NewSec-1 .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+#NewSec-1 .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#NewSec-1 .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
