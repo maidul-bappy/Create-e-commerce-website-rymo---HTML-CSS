@@ -66,6 +66,11 @@ hr{
  font-size: 0.8rem;
  color: gold;
 }
+
+img{
+    max-width: 100%;
+}
+
 button:hover{
     background-color: #3a3833;
 }
@@ -258,13 +263,6 @@ button:hover{
     background-color: coral;
     margin-top: 30px;
 }
-#clothes img{
-    max-width: 100%;
-}
-
-#Watches img{
-    max-width: 100%;
-}
 
 @media only screen and (max-width: 991px){
     #Brand img{
@@ -276,3 +274,49 @@ button:hover{
         transition: 0.3s all;
     }
 }
+
+footer{
+    background-color: #222;
+}
+
+footer h5{
+   color: #d8d8d8;
+   font-weight: 700;
+   font-size: 1.2rem;
+}
+
+footer li{
+  padding-bottom: 4px;
+}
+
+footer li a{
+ font-size: 0.8rem;
+ color: #c7c5c5;
+}
+
+footer li a:hover{
+ font-size: 0.8rem;
+ color: #d8d8d8;
+}
+
+footer p{
+    color: #c7c5c5;
+    font-size: 0.8rem;
+ }
+
+ footer .copyright a{
+     color: black;
+     width: 38px;
+     margin: 0 5px;
+     height: 38px;
+     background-color: #fff;
+     display: inline-block;
+     line-height: 38px;
+     border-radius: 50%;
+     transition: 0.3s ease;
+ }
+
+ footer .copyright a:hover{
+     color: #fff;
+     background-color: #fd8255;
+ }
