@@ -54,6 +54,18 @@ button{
     transition: 0.3s ease;
 }
 
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: coral;
+}
+.Star{
+    padding: 0 10px;
+}
+.Star i{
+ font-size: 0.8rem;
+ color: gold;
+}
 button:hover{
     background-color: #3a3833;
 }
@@ -197,4 +209,26 @@ button:hover{
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
+}
+
+.Product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.Product img{
+    transition: 0.3s all;
+}
+.Product:hover img{
+    opacity: 0.7;
+}
+.Product .Product-btn{
+    background-color: coral;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.Product:hover .Product-btn{
+    transform: translateY(0);
+    opacity: 1;
+  
 }
