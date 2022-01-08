@@ -1,3 +1,10 @@
 # Create-e-commerce-website-rymo---HTML-CSS
 
- Live Link: https://rymo-e-comerce-partner.netlify.app/
+## [Live Site](https://rymo-e-comerce-partner.netlify.app/)
+
+### Technology :
+
+- **HTML/HTML5**
+- **CSS/CSS3**
+- **Bootstrap**
+- **JavaScript**
